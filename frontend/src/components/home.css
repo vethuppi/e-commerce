@@ -1,0 +1,263 @@
+.hero__content {
+    padding-top: 70px;
+  }
+  
+  .hero__title {
+    font-size: 2.5rem;
+    line-height: 55px;
+  }
+  
+  .hero__title span {
+    color: #AD6031;
+  }
+  
+  .hero__content p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #212529;
+  }
+  
+  .hero__btns button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .order__btn {
+    background: #AD6031;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .order__btn:hover {
+    background: #212245;
+  }
+  .all__foods-btn {
+    background: transparent;
+    border: 1px solid #AD6031 !important;
+  }
+  
+  .all__foods-btn a {
+    color: #AD6031;
+  }
+  
+  .hero__service p {
+    color: #212245;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .shipping__icon i {
+    padding: 5px;
+    background: #AD6031;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500 !important;
+  }
+
+.feature__subtitle {
+    color: #ad6031;
+  }
+  
+  .feature__title span {
+    color: #ad6031;
+  }
+  
+  .feature__text {
+    color: #212529;
+  }
+  
+  .feature__item p {
+    color: #212529;
+  }
+  
+  .food__category {
+    /* background: #fff; */
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+  }
+  
+  .food__category button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #ad6031;
+  }
+  
+  .food__category button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .foodBtnActive {
+    background: #ad6031 !important;
+    border-radius: 5px;
+    color: #fff !important;
+  }
+  
+  .tasty__treat-title span {
+    color: #ad6031;
+  }
+  
+  .tasty__treat-desc {
+    color: #212529;
+    line-height: 28px;
+  }
+  
+  .choose__us-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .choose__us-title i {
+    font-weight: 500 !important;
+    color: #ad6031;
+  }
+  
+  .choose__us-desc {
+    color: #212529;
+  }
+  
+  .testimonial__subtitle {
+    color: #ad6031;
+  }
+  
+  .testimonial__title span {
+    color: #ad6031;
+  }
+  
+  .testimonial__desc {
+    color: #212529;
+    line-height: 30px;
+  }
+  .hero__img {
+    margin-left: 90px;
+  }
+  .why__choose-us img {
+    margin-left: -150px;
+  }
+  /* #back{
+    background-color: black;
+  } */
+  @media only screen and (max-width: 768px) {
+    .hero__content h5 {
+      font-size: 1rem;
+    }
+  
+    .hero__content p {
+      font-size: 0.8rem;
+      line-height: 25px;
+    }
+  
+    .hero__title {
+      font-size: 1.5rem;
+      line-height: 40px;
+    }
+  
+    .hero__btns button {
+      padding: 5px 15px;
+      font-size: 0.7rem;
+    }
+  
+    .hero__service p {
+      font-size: 0.7rem !important;
+    }
+    .hero__img {
+      margin-left: 30px;
+    }
+  
+    .feature__item h5 {
+      font-size: 0.9rem;
+    }
+  
+    .feature__item p {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  
+    .feature__subtitle {
+      font-size: 1rem;
+    }
+    .feature__text {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  
+    .food__category {
+      padding: 15px;
+    }
+    .food__category button {
+      padding: 5px 15px;
+      font-size: 0.7rem;
+    }
+  
+    .tasty__treat-desc {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+    .choose__us-title {
+      font-size: 0.8rem;
+    }
+  
+    .choose__us-desc {
+      font-size: 0.7rem;
+    }
+  
+    .testimonial__subtitle {
+      font-size: 1rem;
+    }
+    .testimonial__desc {
+      font-size: 0.8rem;
+    }
+    .why__choose-us img {
+      margin-left: -80px;
+      /* height: 700px; */
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .hero__content {
+      text-align: center;
+    }
+  
+    .hero__btns {
+      justify-content: center;
+    }
+  
+    .hero__service {
+      justify-content: center;
+    }
+    .hero__img {
+      margin-left: 20px;
+    }
+    .why__choose-us {
+      padding-top: 0 !important;
+    }
+    .why__choose-us img {
+      margin-left: -60px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .hero__content {
+      text-align: center;
+    }
+  
+    .hero__btns {
+      justify-content: center;
+    }
+  
+    .hero__service {
+      justify-content: center;
+    }
+    .hero__img {
+      margin-left: 30px;
+    }
+    .why__choose-us {
+      padding-top: 0 !important;
+    }
+  }

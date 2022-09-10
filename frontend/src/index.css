@@ -1,0 +1,68 @@
+main {
+  min-height: 80vh;
+}
+.bg-primary {
+  background-color: #4f64ea !important;
+  color: #fff !important;
+}
+.bg-secondary {
+  background-color:  #FFFFE7 !important;
+}
+
+/* body,
+.modal-background {
+  background-color: #c2d3e4d3 !important;
+} */
+
+/* .bg-dark {
+  background-color: #2d83f4 !important;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.692) !important;
+} */
+
+.header-color {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4f64ea+32,ced2e8+32,ced2e8+32,f1f6f7+32 */
+  background: rgb(79, 100, 234); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(79, 100, 234, 1) 32%,
+    rgba(206, 210, 232, 1) 32%,
+    rgba(206, 210, 232, 1) 32%,
+    rgba(241, 246, 247, 1) 32%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(79, 100, 234, 1) 32%,
+    rgba(206, 210, 232, 1) 32%,
+    rgba(206, 210, 232, 1) 32%,
+    rgba(241, 246, 247, 1) 32%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(79, 100, 234, 1) 32%,
+    rgba(206, 210, 232, 1) 32%,
+    rgba(206, 210, 232, 1) 32%,
+    rgba(241, 246, 247, 1) 32%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f64ea', endColorstr='#f1f6f7',GradientType=1 ); /* IE6-9 */
+}
+
+.card {
+  overflow: hidden;
+}
+.card img {
+  transition: 0.7s ease-in-out;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+.custom-rounded {
+  border-radius: 100%;
+}
+.custom-text-color {
+  color: #4f64ea !important;
+}
